@@ -1,0 +1,43 @@
+{
+  "name": "react-increment-number",
+  "version": "0.1.1",
+  "files": [
+    "lib"
+  ],
+  "module": "./lib/index.mjs",
+  "main": "./lib/index.umd.js",
+  "exports": {
+    ".": {
+      "import": "./lib/index.mjs",
+      "require": "./lib/index.umd.js"
+    }
+  },
+  "repository": "https://github.com/cashon1120/react-number-increment",
+  "homepage": "https://github.com/cashon1120/react-number-increment",
+  "keywords": [
+    "react",
+    "number",
+    "increment",
+    "vue",
+    "vite"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build:demo": "vite build --config vite.config.demo.ts",
+    "build:lib": "vite build --config vite.config.lib.ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-increment-number": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.3"
+  }
+}

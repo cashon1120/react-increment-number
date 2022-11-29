@@ -1,6 +1,6 @@
 import { useState } from 'react'
-// import NumberIncrement from "./lib/index";
-import NumberIncrement from "react-increment-number";
+import IncrementNumber from "./lib/index";
+// import IncrementNumber from "react-increment-number";
 
 import './App.css'
 
@@ -16,7 +16,6 @@ function App() {
   };
   const handlReduction = () => {
     setNumber((number) => number - 128);
-
   };
   
   const change = (e: any) => {
@@ -30,7 +29,7 @@ function App() {
     <div className="wrapper">
       <button onClick={handlReduction} data-testid="reduction">-</button>
       <div className="count" data-testid="number">
-        <NumberIncrement to={number} speed={speed} callback={handleAnimationEnd} />
+        <IncrementNumber to={number} speed={speed} callback={handleAnimationEnd} />
       </div>
       <button onClick={handlIncrement}  data-testid="increment">+</button>
     </div>

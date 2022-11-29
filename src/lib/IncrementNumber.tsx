@@ -20,7 +20,7 @@ interface Props {
   callback?: (endValue: number) => void;
 }
 
-const NumberIncrement: FC<Props> = (props) => {
+const IncrementNumber: FC<Props> = (props) => {
   const { to, callback } = props;
   const [count, setCount] = useState(0);
   const refCount = useRef(0)
@@ -74,4 +74,4 @@ const NumberIncrement: FC<Props> = (props) => {
   return <>{count}</>;
 };
 
-export default NumberIncrement;
+export default IncrementNumber;

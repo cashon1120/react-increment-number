@@ -1,2 +1,2 @@
-import NumberIncrement from "./NumberIncrement";
-export default NumberIncrement;
+import IncrementNumber from "./IncrementNumber";
+export default IncrementNumber;

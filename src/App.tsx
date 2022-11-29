@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import IncrementNumber from "./lib/index";
-// import IncrementNumber from "react-increment-number";
+// import IncrementNumber from "./lib/index";
+import IncrementNumber from "react-increment-number";
 
 import './App.css'
 

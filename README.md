@@ -5,7 +5,7 @@ React number increment animation component
 ### install
 `npm install react-increment-number`  
 or  
-`yarn add vue-increment-number`
+`yarn add react-increment-number`
 
 [DEMO](https://increment.hi515.cn)
 ### use
